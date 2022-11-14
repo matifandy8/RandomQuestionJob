@@ -37,7 +37,7 @@ export default function HomePage() {
                     <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
                         <div className="mx-auto max-w-screen-sm text-center">
                             <h2 className="mb-4 text-4xl tracking-tight font-extrabold leading-tight text-gray-900 dark:text-white">Show here question</h2>
-                            <div>{questions && <p className="mb-6 font-light text-gray-400 dark:text-gray-300 md:text-lg">{questionFilter} </p>}</div>
+                            <div>{questions && <p className="mb-6 font-light text-black-400 dark:text-black-300 md:text-lg">{questionFilter} </p>}</div>
                             <button className="py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75" onClick={handleClick}>
                                 Generate Question
                             </button>
